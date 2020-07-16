@@ -1,1 +1,118 @@
+.top-container{
+  background-color: #feceab;
+  position: relative;
+  padding-top: 100px;
+}
 
+h1{
+  margin: 50px auto 0 auto;
+  font-family: 'Dancing Script', cursive;
+  font-size: 5rem;
+  color: #e84a5f;
+}
+h2{
+  font-family: 'Heebo', sans-serif;
+  font-size: 2rem;
+  color: #ff847c;
+
+}
+p{
+  color: #40514E;
+  font-family: 'Heebo', sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 2;
+  text-align: center;
+  margin: auto;
+}
+h3{
+  font-family: 'Heebo', sans-serif;
+  font-size: 1em;
+  color:#ff847c;
+}
+ body{
+   margin:0;
+   text-align: center;
+ }
+
+.top-cloud{
+  position: absolute;
+  right:300px;
+  top:50px;
+}
+.bottom-cloud{
+  position: absolute;
+  left:300px;
+  bottom:300px;
+}
+.dp{
+  width: 250px;
+  height: 250px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+.computer-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.keyboard-img{
+  float: right;
+  margin-left: 30px;
+}
+.skill-row{
+  display: block;
+  text-align: left;
+  line-height: 2;
+  margin: 50px auto 100px auto;
+  width: 50%;
+}
+hr{
+  display:block;
+  border: none;
+  border-top: 5px dotted #feceab;
+  width: 10%; /*use percent for it to scale with website*/
+  /* or set border bottom to none*/
+  margin: 100px auto;
+}
+.intro{
+  width:50%
+  /*
+  margin should be auto here, but I already did that in p class
+  */
+}
+
+.btn {
+	background-color:#e84a5f;
+	border-radius:28px;
+	border:1px solid #e84a5f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+  margin-top: 20px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #e84a5f;
+}
+.btn:hover {
+	background-color:#ff847c;
+}
+a{
+  font-family: 'Heebo', sans-serif;
+  color: white;
+  text-decoration: none; /* to get rid of underline*/
+}
+a:hover{
+  color: #e84a5f;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+.footer{
+  margin: 100px auto 0 auto;
+  padding: 20px;
+  background-color: #ff847c;
+}
